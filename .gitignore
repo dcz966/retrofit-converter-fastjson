@@ -3,12 +3,12 @@ local.properties
 .project
 .settings
 eclipsebin
+.gradle
 
 bin
 gen
 build
 out
-lib
 
 target
 pom.xml.*
@@ -16,8 +16,5 @@ release.properties
 
 .idea
 *.iml
-classes
-
-obj
 
 .DS_Store
