@@ -1,8 +1,5 @@
 FastJson Retrofit Converter
 ===================
-[![Build Status](https://travis-ci.org/ligboy/retrofit-converter-fastjson.svg?branch=master)](https://travis-ci.org/ligboy/retrofit-converter-fastjson)
-converter-fastjson[![Download](https://api.bintray.com/packages/ligboy/maven/retrofit-converter-fastjson/images/download.svg)](https://bintray.com/ligboy/maven/retrofit-converter-fastjson/_latestVersion)
-converter-fastjson-android[![Download](https://api.bintray.com/packages/ligboy/maven/retrofit-converter-fastjson-android/images/download.svg)](https://bintray.com/ligboy/maven/retrofit-converter-fastjson-android/_latestVersion)
 
 Retrofit ships with support for OkHttp's `RequestBody` and `ResponseBody` types but the library is
 content-format agnostic. This modules contained herein are additional converters for JSON which uses FastJson.
@@ -11,26 +8,14 @@ For more information please see [the website][1].
 Download
 --------
 
-Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3].  
-### Via Maven:
+###  Gradle:
 #### dependency:
-```xml
-<dependency>
-  <groupId>org.ligboy.retrofit2</groupId>
-  <artifactId>converter-fastjson</artifactId>
-  <version>2.0.2</version>
-</dependency>
+
+```groovy
+
+
 ```
- *For fastjson-android:*
-```xml
-<dependency>
-  <groupId>org.ligboy.retrofit2</groupId>
-  <artifactId>converter-fastjson-android</artifactId>
-  <version>2.0.2</version>
-</dependency>
-```
-### or Gradle:
-#### dependency:
+
 ```groovy
 compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
 ```
@@ -50,10 +35,6 @@ Retrofit retrofit = new Retrofit.Builder()
   .build();
 ```
 
-#### Deploy
-```bash
-mvn deploy --settings settings
-```
 License
 =======
     Licensed under the Apache License, Version 2.0 (the "License");

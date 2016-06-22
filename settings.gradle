@@ -1,0 +1,2 @@
+include ':fastjson-sample'
+include ':fastjson-android'
