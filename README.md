@@ -10,19 +10,21 @@ Download
 
 ###  Gradle:
 #### dependency:
-
+Add it in your root build.gradle at the end of repositories:
 ```groovy
-
-
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
 ```
 
-```groovy
-compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
-```
  *For fastjson-android:*
 ```groovy
-compile 'org.ligboy.retrofit2:converter-fastjson-android:2.0.2'
+compile 'com.github.d0calv1n:retrofit-converter-fastjson:2.1.0'
 ```
+
 Usage
 -------
 FastJson Retrofit Converter requires at minimum Java 7 or Android 2.3.
