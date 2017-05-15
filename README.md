@@ -22,7 +22,7 @@ allprojects {
 
  *For fastjson-android:*
 ```groovy
-compile 'com.github.d0calv1n:retrofit-converter-fastjson:2.1.0'
+compile 'com.github.d0calv1n:retrofit-converter-fastjson:2.3.0'
 ```
 
 Usage
